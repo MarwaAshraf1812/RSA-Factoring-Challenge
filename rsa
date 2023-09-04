@@ -5,6 +5,7 @@
 
 import sys
 
+
 def RSA():
     """
     function fc to search file to convert number and format n=p*q
@@ -15,8 +16,8 @@ def RSA():
             for number in f:
                 number = int(number)
                 if number % 2 == 0:
-                        print("{}={}*{}".format(number, number // 2, 2))
-                        continue
+                    print("{}={}*{}".format(number, number // 2, 2))
+                    continue
                 i = 3
                 while i < number // 2:
                     if number % i == 0:
